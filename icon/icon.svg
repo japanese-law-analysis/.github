@@ -1,0 +1,27 @@
+<svg width="400" height="400" viewBox="0, 0, 400, 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="white"/>
+
+  <path d="M 200 320 L 200 50" stroke="black" stroke-width="10pt" stroke-linecap="butt"/>
+  <path d="M 110 320 L 290 320 L 300 340 L 100 340 Z" fill="black"/>
+  <path d="M 80 80 L 100 95 C 150 60, 250 60, 300 95 L 320 80" stroke="black" stroke-width="5pt" stroke-linecap="round" fill="none"/>
+
+  <!-- 左の皿 -->
+  <path d="M 100 95 L 50 225" stroke="black" stroke-width="3pt" stroke-linecap="round"/>
+  <path d="M 100 95 L 150 225" stroke="black" stroke-width="3pt" stroke-linecap="round"/>
+  <path d="M 50 225 L 150 225 C 130 255, 70 255, 50 225 Z" stroke="black" stroke-width="1pt" fill="black"/>
+
+  <!-- 右の皿 -->
+  <path d="M 300 95 L 250 225" stroke="black" stroke-width="3pt" stroke-linecap="round"/>
+  <path d="M 300 95 L 350 225" stroke="black" stroke-width="3pt" stroke-linecap="round"/>
+  <path d="M 250 225 L 350 225 C 330 255, 270 255, 250 225 Z" stroke="black" stroke-width="1pt" fill="black"/>
+
+
+  <!-- 本 -->
+  <path d="M 65 215 L 65 165 C 65 155, 90 155, 100 170 C 110 155, 135 155, 135 165 L 135 215 C 135 205, 110 205, 100 220 C 90 205, 65 205, 65 215" stroke="black" stroke-width="2pt" stroke-linecap="round" stroke-linejoin="round" fill="white"/>
+  <path d="M 100 170 L 100 220" stroke="black" stroke-width="2pt" />
+
+  <!-- ディスプレイ -->
+  <rect x="265" y="155" width="70" height="50" stroke="black" stroke-width="2pt" stroke-linecap="round" stroke-linejoin="round" fill="white"/>
+  <path d="M 300 205 L 300 220" stroke="black" stroke-width="10pt" />
+  <path d="M 275 218 L 325 218" stroke="black" stroke-width="5pt" stroke-linecap="round"/>
+</svg>
