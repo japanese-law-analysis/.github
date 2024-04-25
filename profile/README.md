@@ -14,6 +14,11 @@
 
 # 作成しているソフトウェア
 
+## ライブラリ
+
+- [japanese_law_xml_schema](https://github.com/japanese-law-analysis/japanese_law_xml_schema)：法令標準XMLスキーマ(<https://elaws.e-gov.go.jp/file/XMLSchemaForJapaneseLaw_v3.xsd>)を取り扱うデータ構造と関数を提供する
+- [jplaw_tools](https://github.com/japanese-law-analysis/jplaw_tools)：法律文書を解析する際に便利な関数を実装
+
 ## 解析ツール
 
 - [analysis_yomikae](https://github.com/japanese-law-analysis/analysis_yomikae)：読替規定文を解析し、読み替えられる対象の語と読み替え後の文言を抽出する
@@ -22,8 +27,5 @@
 ## サポートツール
 
 - [listup_law](https://github.com/japanese-law-analysis/listup_law)：[e-gov法令検索](https://elaws.e-gov.go.jp/)から一括ダウンロードしたXML法令データにどのような法令が含まれているのかをリストアップする
-- [search_article_with_word](https://github.com/japanese-law-analysis/search_article_with_word)：指定した単語がどの法律のどの条文にあるのかをリストアップする
-- [jplaw_text](https://github.com/japanese-law-analysis/jplaw_text)：法令と条文を指定すると、その指定した条文のテキストを取得する
 - [listup_precedent](https://github.com/japanese-law-analysis/listup_precedent)：[裁判所のホームページ](https://www.courts.go.jp/)で公開されている判例の情報を取得してリストアップする
-- [pdf2txt_precedent](https://github.com/japanese-law-analysis/pdf2txt_precedent)：判例PDFから判例のテキストを抽出する
 - [parse_japanese_dependency](https://github.com/japanese-law-analysis/parse_japanese_dependency)：日本語の係り受け解析を行う
