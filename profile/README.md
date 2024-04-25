@@ -27,5 +27,7 @@
 ## サポートツール
 
 - [listup_law](https://github.com/japanese-law-analysis/listup_law)：[e-gov法令検索](https://elaws.e-gov.go.jp/)から一括ダウンロードしたXML法令データにどのような法令が含まれているのかをリストアップする
+- [egov_law_abb](https://github.com/japanese-law-analysis/egov_law_abb)：<https://elaws.e-gov.go.jp/abb/>にある略称法令一覧をリストアップする
 - [listup_precedent](https://github.com/japanese-law-analysis/listup_precedent)：[裁判所のホームページ](https://www.courts.go.jp/)で公開されている判例の情報を取得してリストアップする
+- [listup_jorei](https://github.com/japanese-law-analysis/listup_jorei)：<https://jorei.slis.doshisha.ac.jp/>を元に条例をリストアップする
 - [parse_japanese_dependency](https://github.com/japanese-law-analysis/parse_japanese_dependency)：日本語の係り受け解析を行う
